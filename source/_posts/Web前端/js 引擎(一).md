@@ -1,20 +1,15 @@
-```
+---
 title: js 引擎
 date: 2019-08-18 21:33:24
 tags: Web前端
 categories: Web前端
-```
-
-
-
+---
 
 
 在 Facebook 发布 Hermes 引擎之前，Fabrice Bellard 以及 C 语言专家 Charlie Gordon 公开发布了 QuickJS。
 
 
-
 [Facebook发布全新JS引擎！专注提高React Native应用的性能](https://mp.weixin.qq.com/s/0KxLQjI0jWxSt7sLqkS6Hw)
-
 
 
 > 为了提高 Facebook 应用的性能，我们的团队不断改进自己的 JavaScript 代码和平台。在分析性能数据时，我们发现 JavaScript 引擎本身是影响启动性能和应用包体积的重要因素。有了这些数据，我们意识到必须在比 PC 端限制更多的移动环境中优化 JavaScript 性能。尝试了各种方案后，我们构建了一个新的 JavaScript 引擎：Hermes。它旨在提高应用性能，专注于 React Native 应用，并且在市面上那些内存较少、存储速度较慢且计算能力低下的移动设备上都有良好的表现。
